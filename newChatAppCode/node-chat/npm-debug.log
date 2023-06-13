@@ -1,0 +1,1165 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData axios
+20 silly mapToRegistry name axios
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/axios
+24 silly fetchNamedPackageData bcrypt
+25 silly mapToRegistry name bcrypt
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/bcrypt
+29 silly fetchNamedPackageData body-parser
+30 silly mapToRegistry name body-parser
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+34 silly fetchNamedPackageData connect-redis
+35 silly mapToRegistry name connect-redis
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry https://registry.npmjs.org/
+38 silly mapToRegistry uri https://registry.npmjs.org/connect-redis
+39 silly fetchNamedPackageData cookie-parser
+40 silly mapToRegistry name cookie-parser
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry uri https://registry.npmjs.org/cookie-parser
+44 silly fetchNamedPackageData cors
+45 silly mapToRegistry name cors
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry uri https://registry.npmjs.org/cors
+49 silly fetchNamedPackageData ejs
+50 silly mapToRegistry name ejs
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/ejs
+54 silly fetchNamedPackageData express
+55 silly mapToRegistry name express
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry uri https://registry.npmjs.org/express
+59 silly fetchNamedPackageData express-kun
+60 silly mapToRegistry name express-kun
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry uri https://registry.npmjs.org/express-kun
+64 silly fetchNamedPackageData express-session
+65 silly mapToRegistry name express-session
+66 silly mapToRegistry using default registry
+67 silly mapToRegistry registry https://registry.npmjs.org/
+68 silly mapToRegistry uri https://registry.npmjs.org/express-session
+69 silly fetchNamedPackageData jsonwebtoken
+70 silly mapToRegistry name jsonwebtoken
+71 silly mapToRegistry using default registry
+72 silly mapToRegistry registry https://registry.npmjs.org/
+73 silly mapToRegistry uri https://registry.npmjs.org/jsonwebtoken
+74 silly fetchNamedPackageData moment
+75 silly mapToRegistry name moment
+76 silly mapToRegistry using default registry
+77 silly mapToRegistry registry https://registry.npmjs.org/
+78 silly mapToRegistry uri https://registry.npmjs.org/moment
+79 silly fetchNamedPackageData multer
+80 silly mapToRegistry name multer
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry uri https://registry.npmjs.org/multer
+84 silly fetchNamedPackageData mysql2
+85 silly mapToRegistry name mysql2
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry uri https://registry.npmjs.org/mysql2
+89 silly fetchNamedPackageData node-localstorage
+90 silly mapToRegistry name node-localstorage
+91 silly mapToRegistry using default registry
+92 silly mapToRegistry registry https://registry.npmjs.org/
+93 silly mapToRegistry uri https://registry.npmjs.org/node-localstorage
+94 silly fetchNamedPackageData pg
+95 silly mapToRegistry name pg
+96 silly mapToRegistry using default registry
+97 silly mapToRegistry registry https://registry.npmjs.org/
+98 silly mapToRegistry uri https://registry.npmjs.org/pg
+99 silly fetchNamedPackageData pg-hstore
+100 silly mapToRegistry name pg-hstore
+101 silly mapToRegistry using default registry
+102 silly mapToRegistry registry https://registry.npmjs.org/
+103 silly mapToRegistry uri https://registry.npmjs.org/pg-hstore
+104 silly fetchNamedPackageData qs
+105 silly mapToRegistry name qs
+106 silly mapToRegistry using default registry
+107 silly mapToRegistry registry https://registry.npmjs.org/
+108 silly mapToRegistry uri https://registry.npmjs.org/qs
+109 silly fetchNamedPackageData redis
+110 silly mapToRegistry name redis
+111 silly mapToRegistry using default registry
+112 silly mapToRegistry registry https://registry.npmjs.org/
+113 silly mapToRegistry uri https://registry.npmjs.org/redis
+114 silly fetchNamedPackageData sequelize
+115 silly mapToRegistry name sequelize
+116 silly mapToRegistry using default registry
+117 silly mapToRegistry registry https://registry.npmjs.org/
+118 silly mapToRegistry uri https://registry.npmjs.org/sequelize
+119 silly fetchNamedPackageData sequelize-cli
+120 silly mapToRegistry name sequelize-cli
+121 silly mapToRegistry using default registry
+122 silly mapToRegistry registry https://registry.npmjs.org/
+123 silly mapToRegistry uri https://registry.npmjs.org/sequelize-cli
+124 silly fetchNamedPackageData socket.io
+125 silly mapToRegistry name socket.io
+126 silly mapToRegistry using default registry
+127 silly mapToRegistry registry https://registry.npmjs.org/
+128 silly mapToRegistry uri https://registry.npmjs.org/socket.io
+129 verbose request uri https://registry.npmjs.org/axios
+130 verbose request no auth needed
+131 info attempt registry request try #1 at 3:05:34 AM
+132 verbose request id 9b61d0e8bfa43eeb
+133 verbose etag W/"44005c8f9f9ef21709cdfcdb40e0b81c"
+134 verbose lastModified Mon, 01 Mar 2021 21:57:48 GMT
+135 http request GET https://registry.npmjs.org/axios
+136 verbose request uri https://registry.npmjs.org/connect-redis
+137 verbose request no auth needed
+138 info attempt registry request try #1 at 3:05:34 AM
+139 verbose etag W/"be6e4457a966aa4b7063a278ecbc4bb5"
+140 verbose lastModified Mon, 08 Feb 2021 15:16:29 GMT
+141 http request GET https://registry.npmjs.org/connect-redis
+142 verbose request uri https://registry.npmjs.org/cookie-parser
+143 verbose request no auth needed
+144 info attempt registry request try #1 at 3:05:34 AM
+145 verbose etag W/"fee07e27bb4929bc05bd46d462320fb9"
+146 verbose lastModified Sun, 15 Mar 2020 04:07:20 GMT
+147 http request GET https://registry.npmjs.org/cookie-parser
+148 verbose request uri https://registry.npmjs.org/cors
+149 verbose request no auth needed
+150 info attempt registry request try #1 at 3:05:34 AM
+151 verbose etag W/"158c1c99bef274f24886ea063ec191c5"
+152 verbose lastModified Fri, 22 Jan 2021 21:18:44 GMT
+153 http request GET https://registry.npmjs.org/cors
+154 verbose request uri https://registry.npmjs.org/bcrypt
+155 verbose request no auth needed
+156 info attempt registry request try #1 at 3:05:34 AM
+157 verbose etag W/"f17bbb5e1742f915082cc09fcfe14e44"
+158 verbose lastModified Sat, 13 Mar 2021 20:48:26 GMT
+159 http request GET https://registry.npmjs.org/bcrypt
+160 verbose request uri https://registry.npmjs.org/body-parser
+161 verbose request no auth needed
+162 info attempt registry request try #1 at 3:05:34 AM
+163 verbose etag W/"69165633b8917311c8a5b29b5aa3a438"
+164 verbose lastModified Fri, 29 Nov 2019 09:32:45 GMT
+165 http request GET https://registry.npmjs.org/body-parser
+166 verbose request uri https://registry.npmjs.org/express-session
+167 verbose request no auth needed
+168 info attempt registry request try #1 at 3:05:34 AM
+169 verbose etag W/"27a476efc61a53df81efda5ec282e446"
+170 verbose lastModified Fri, 17 Apr 2020 05:12:18 GMT
+171 http request GET https://registry.npmjs.org/express-session
+172 verbose request uri https://registry.npmjs.org/jsonwebtoken
+173 verbose request no auth needed
+174 info attempt registry request try #1 at 3:05:34 AM
+175 verbose etag W/"cb245339083e6f56f3b27306ff2985d4"
+176 verbose lastModified Thu, 11 Feb 2021 00:27:31 GMT
+177 http request GET https://registry.npmjs.org/jsonwebtoken
+178 verbose request uri https://registry.npmjs.org/moment
+179 verbose request no auth needed
+180 info attempt registry request try #1 at 3:05:34 AM
+181 verbose etag W/"f7069e4c62e0cc211a1ffac6d614ec94"
+182 verbose lastModified Wed, 03 Mar 2021 04:51:57 GMT
+183 http request GET https://registry.npmjs.org/moment
+184 verbose request uri https://registry.npmjs.org/multer
+185 verbose request no auth needed
+186 info attempt registry request try #1 at 3:05:34 AM
+187 verbose etag W/"851bfd416613de8d49e379afdc444aa2"
+188 verbose lastModified Sun, 15 Mar 2020 16:28:53 GMT
+189 http request GET https://registry.npmjs.org/multer
+190 verbose request uri https://registry.npmjs.org/mysql2
+191 verbose request no auth needed
+192 info attempt registry request try #1 at 3:05:34 AM
+193 verbose etag W/"c2c7024a6b38a98ec69d09f9ec0ab572"
+194 verbose lastModified Mon, 21 Sep 2020 12:28:16 GMT
+195 http request GET https://registry.npmjs.org/mysql2
+196 verbose request uri https://registry.npmjs.org/node-localstorage
+197 verbose request no auth needed
+198 info attempt registry request try #1 at 3:05:34 AM
+199 verbose etag W/"8ed2f597a92f835f07a15d0faccef415"
+200 verbose lastModified Fri, 10 Apr 2020 22:54:25 GMT
+201 http request GET https://registry.npmjs.org/node-localstorage
+202 verbose request uri https://registry.npmjs.org/ejs
+203 verbose request no auth needed
+204 info attempt registry request try #1 at 3:05:35 AM
+205 verbose etag W/"fa0a9e30838de006b49335fa5ad18110"
+206 verbose lastModified Sat, 20 Feb 2021 21:22:31 GMT
+207 http request GET https://registry.npmjs.org/ejs
+208 verbose request uri https://registry.npmjs.org/pg
+209 verbose request no auth needed
+210 info attempt registry request try #1 at 3:05:35 AM
+211 verbose etag W/"8bfaf29f6054a5f59776149499e0d969"
+212 verbose lastModified Fri, 13 Nov 2020 15:00:25 GMT
+213 http request GET https://registry.npmjs.org/pg
+214 verbose request uri https://registry.npmjs.org/express
+215 verbose request no auth needed
+216 info attempt registry request try #1 at 3:05:35 AM
+217 verbose etag W/"f538acf6d267f4fe8e83d144e7eca01c"
+218 verbose lastModified Thu, 25 Feb 2021 23:21:20 GMT
+219 http request GET https://registry.npmjs.org/express
+220 verbose request uri https://registry.npmjs.org/express-kun
+221 verbose request no auth needed
+222 info attempt registry request try #1 at 3:05:35 AM
+223 verbose etag W/"dcc0c64aaa5852da9b91387f0e411252"
+224 verbose lastModified Wed, 25 Mar 2020 12:03:11 GMT
+225 http request GET https://registry.npmjs.org/express-kun
+226 verbose request uri https://registry.npmjs.org/qs
+227 verbose request no auth needed
+228 info attempt registry request try #1 at 3:05:35 AM
+229 verbose etag W/"c6ae2ae2c9e9df9fc738a0a5fab39a87"
+230 verbose lastModified Thu, 14 Jan 2021 04:53:52 GMT
+231 http request GET https://registry.npmjs.org/qs
+232 verbose request uri https://registry.npmjs.org/redis
+233 verbose request no auth needed
+234 info attempt registry request try #1 at 3:05:35 AM
+235 verbose etag W/"f06db0db4ba63e13652caa0b11eebb7f"
+236 verbose lastModified Fri, 26 Jun 2020 20:55:24 GMT
+237 http request GET https://registry.npmjs.org/redis
+238 verbose request uri https://registry.npmjs.org/socket.io
+239 verbose request no auth needed
+240 info attempt registry request try #1 at 3:05:35 AM
+241 verbose etag W/"a9e259de06c27cbb3ebc124f69569d02"
+242 verbose lastModified Wed, 10 Mar 2021 11:45:06 GMT
+243 http request GET https://registry.npmjs.org/socket.io
+244 verbose request uri https://registry.npmjs.org/sequelize-cli
+245 verbose request no auth needed
+246 info attempt registry request try #1 at 3:05:35 AM
+247 verbose etag W/"3049191ff4817fc23a3ffbc7cc5a49e7"
+248 verbose lastModified Sun, 05 Jul 2020 05:57:51 GMT
+249 http request GET https://registry.npmjs.org/sequelize-cli
+250 verbose request uri https://registry.npmjs.org/pg-hstore
+251 verbose request no auth needed
+252 info attempt registry request try #1 at 3:05:35 AM
+253 verbose etag W/"83cabd8a2340481d89eb42da6db01a9d"
+254 verbose lastModified Mon, 03 Jun 2019 20:41:34 GMT
+255 http request GET https://registry.npmjs.org/pg-hstore
+256 verbose request uri https://registry.npmjs.org/sequelize
+257 verbose request no auth needed
+258 info attempt registry request try #1 at 3:05:36 AM
+259 verbose etag W/"0dd8d1984c44202f9082546256da0962"
+260 verbose lastModified Sun, 14 Mar 2021 18:39:19 GMT
+261 http request GET https://registry.npmjs.org/sequelize
+262 http 304 https://registry.npmjs.org/express-session
+263 verbose headers { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+263 verbose headers   connection: 'keep-alive',
+263 verbose headers   'set-cookie':
+263 verbose headers    [ '__cfduid=d2674b534dce06dc9d337ab463da507431615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+263 verbose headers   'cf-ray': '63145fb6c84d2e41-BOM',
+263 verbose headers   age: '959',
+263 verbose headers   'cache-control': 'public, max-age=300',
+263 verbose headers   etag: '"27a476efc61a53df81efda5ec282e446"',
+263 verbose headers   'last-modified': 'Fri, 17 Apr 2020 05:12:18 GMT',
+263 verbose headers   vary: 'Accept-Encoding',
+263 verbose headers   'cf-cache-status': 'HIT',
+263 verbose headers   'cf-request-id': '08e09a264200002e4138031000000001',
+263 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+263 verbose headers   server: 'cloudflare' }
+264 silly get cb [ 304,
+264 silly get   { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+264 silly get     connection: 'keep-alive',
+264 silly get     'set-cookie':
+264 silly get      [ '__cfduid=d2674b534dce06dc9d337ab463da507431615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+264 silly get     'cf-ray': '63145fb6c84d2e41-BOM',
+264 silly get     age: '959',
+264 silly get     'cache-control': 'public, max-age=300',
+264 silly get     etag: '"27a476efc61a53df81efda5ec282e446"',
+264 silly get     'last-modified': 'Fri, 17 Apr 2020 05:12:18 GMT',
+264 silly get     vary: 'Accept-Encoding',
+264 silly get     'cf-cache-status': 'HIT',
+264 silly get     'cf-request-id': '08e09a264200002e4138031000000001',
+264 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+264 silly get     server: 'cloudflare' } ]
+265 verbose etag https://registry.npmjs.org/express-session from cache
+266 verbose get saving express-session to /home/mukesh/.npm/registry.npmjs.org/express-session/.cache.json
+267 http 304 https://registry.npmjs.org/connect-redis
+268 verbose headers { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+268 verbose headers   connection: 'keep-alive',
+268 verbose headers   'set-cookie':
+268 verbose headers    [ '__cfduid=d011476283f19bc29d0f67514d45f45e41615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+268 verbose headers   'cf-ray': '63145fb6d8e62e46-BOM',
+268 verbose headers   age: '6947',
+268 verbose headers   'cache-control': 'public, max-age=300',
+268 verbose headers   etag: '"be6e4457a966aa4b7063a278ecbc4bb5"',
+268 verbose headers   'last-modified': 'Mon, 08 Feb 2021 15:16:29 GMT',
+268 verbose headers   vary: 'Accept-Encoding',
+268 verbose headers   'cf-cache-status': 'HIT',
+268 verbose headers   'cf-request-id': '08e09a264b00002e461cbe5000000001',
+268 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+268 verbose headers   server: 'cloudflare' }
+269 silly get cb [ 304,
+269 silly get   { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+269 silly get     connection: 'keep-alive',
+269 silly get     'set-cookie':
+269 silly get      [ '__cfduid=d011476283f19bc29d0f67514d45f45e41615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+269 silly get     'cf-ray': '63145fb6d8e62e46-BOM',
+269 silly get     age: '6947',
+269 silly get     'cache-control': 'public, max-age=300',
+269 silly get     etag: '"be6e4457a966aa4b7063a278ecbc4bb5"',
+269 silly get     'last-modified': 'Mon, 08 Feb 2021 15:16:29 GMT',
+269 silly get     vary: 'Accept-Encoding',
+269 silly get     'cf-cache-status': 'HIT',
+269 silly get     'cf-request-id': '08e09a264b00002e461cbe5000000001',
+269 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+269 silly get     server: 'cloudflare' } ]
+270 verbose etag https://registry.npmjs.org/connect-redis from cache
+271 verbose get saving connect-redis to /home/mukesh/.npm/registry.npmjs.org/connect-redis/.cache.json
+272 http 304 https://registry.npmjs.org/moment
+273 verbose headers { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+273 verbose headers   connection: 'keep-alive',
+273 verbose headers   'set-cookie':
+273 verbose headers    [ '__cfduid=ddd2d598b288f845af08e7b0c1e564b401615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+273 verbose headers   'cf-ray': '63145fb6def12e04-BOM',
+273 verbose headers   age: '2764',
+273 verbose headers   'cache-control': 'public, max-age=300',
+273 verbose headers   etag: '"f7069e4c62e0cc211a1ffac6d614ec94"',
+273 verbose headers   'last-modified': 'Wed, 03 Mar 2021 04:51:57 GMT',
+273 verbose headers   vary: 'Accept-Encoding',
+273 verbose headers   'cf-cache-status': 'HIT',
+273 verbose headers   'cf-request-id': '08e09a264a00002e045228a000000001',
+273 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+273 verbose headers   server: 'cloudflare' }
+274 silly get cb [ 304,
+274 silly get   { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+274 silly get     connection: 'keep-alive',
+274 silly get     'set-cookie':
+274 silly get      [ '__cfduid=ddd2d598b288f845af08e7b0c1e564b401615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+274 silly get     'cf-ray': '63145fb6def12e04-BOM',
+274 silly get     age: '2764',
+274 silly get     'cache-control': 'public, max-age=300',
+274 silly get     etag: '"f7069e4c62e0cc211a1ffac6d614ec94"',
+274 silly get     'last-modified': 'Wed, 03 Mar 2021 04:51:57 GMT',
+274 silly get     vary: 'Accept-Encoding',
+274 silly get     'cf-cache-status': 'HIT',
+274 silly get     'cf-request-id': '08e09a264a00002e045228a000000001',
+274 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+274 silly get     server: 'cloudflare' } ]
+275 verbose etag https://registry.npmjs.org/moment from cache
+276 verbose get saving moment to /home/mukesh/.npm/registry.npmjs.org/moment/.cache.json
+277 http 304 https://registry.npmjs.org/cookie-parser
+278 verbose headers { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+278 verbose headers   connection: 'keep-alive',
+278 verbose headers   'set-cookie':
+278 verbose headers    [ '__cfduid=d0a85fd3973cd159442c1ce107a81dcbd1615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+278 verbose headers   'cf-ray': '63145fb6ece62e38-BOM',
+278 verbose headers   age: '2592',
+278 verbose headers   'cache-control': 'public, max-age=300',
+278 verbose headers   etag: '"fee07e27bb4929bc05bd46d462320fb9"',
+278 verbose headers   'last-modified': 'Sun, 15 Mar 2020 04:07:20 GMT',
+278 verbose headers   vary: 'Accept-Encoding',
+278 verbose headers   'cf-cache-status': 'HIT',
+278 verbose headers   'cf-request-id': '08e09a265200002e384f3a5000000001',
+278 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+278 verbose headers   server: 'cloudflare' }
+279 silly get cb [ 304,
+279 silly get   { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+279 silly get     connection: 'keep-alive',
+279 silly get     'set-cookie':
+279 silly get      [ '__cfduid=d0a85fd3973cd159442c1ce107a81dcbd1615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+279 silly get     'cf-ray': '63145fb6ece62e38-BOM',
+279 silly get     age: '2592',
+279 silly get     'cache-control': 'public, max-age=300',
+279 silly get     etag: '"fee07e27bb4929bc05bd46d462320fb9"',
+279 silly get     'last-modified': 'Sun, 15 Mar 2020 04:07:20 GMT',
+279 silly get     vary: 'Accept-Encoding',
+279 silly get     'cf-cache-status': 'HIT',
+279 silly get     'cf-request-id': '08e09a265200002e384f3a5000000001',
+279 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+279 silly get     server: 'cloudflare' } ]
+280 verbose etag https://registry.npmjs.org/cookie-parser from cache
+281 verbose get saving cookie-parser to /home/mukesh/.npm/registry.npmjs.org/cookie-parser/.cache.json
+282 http 304 https://registry.npmjs.org/jsonwebtoken
+283 verbose headers { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+283 verbose headers   connection: 'keep-alive',
+283 verbose headers   'set-cookie':
+283 verbose headers    [ '__cfduid=d051f1296d8bf341890cdda4f66351fbd1615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+283 verbose headers   'cf-ray': '63145fb6ed5d31dc-BOM',
+283 verbose headers   age: '742',
+283 verbose headers   'cache-control': 'public, max-age=300',
+283 verbose headers   etag: '"cb245339083e6f56f3b27306ff2985d4"',
+283 verbose headers   'last-modified': 'Thu, 11 Feb 2021 00:27:31 GMT',
+283 verbose headers   vary: 'Accept-Encoding',
+283 verbose headers   'cf-cache-status': 'HIT',
+283 verbose headers   'cf-request-id': '08e09a2651000031dc59a8b000000001',
+283 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+283 verbose headers   server: 'cloudflare' }
+284 silly get cb [ 304,
+284 silly get   { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+284 silly get     connection: 'keep-alive',
+284 silly get     'set-cookie':
+284 silly get      [ '__cfduid=d051f1296d8bf341890cdda4f66351fbd1615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+284 silly get     'cf-ray': '63145fb6ed5d31dc-BOM',
+284 silly get     age: '742',
+284 silly get     'cache-control': 'public, max-age=300',
+284 silly get     etag: '"cb245339083e6f56f3b27306ff2985d4"',
+284 silly get     'last-modified': 'Thu, 11 Feb 2021 00:27:31 GMT',
+284 silly get     vary: 'Accept-Encoding',
+284 silly get     'cf-cache-status': 'HIT',
+284 silly get     'cf-request-id': '08e09a2651000031dc59a8b000000001',
+284 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+284 silly get     server: 'cloudflare' } ]
+285 verbose etag https://registry.npmjs.org/jsonwebtoken from cache
+286 verbose get saving jsonwebtoken to /home/mukesh/.npm/registry.npmjs.org/jsonwebtoken/.cache.json
+287 http 304 https://registry.npmjs.org/axios
+288 verbose headers { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+288 verbose headers   connection: 'keep-alive',
+288 verbose headers   'set-cookie':
+288 verbose headers    [ '__cfduid=dc6098c128b0b576a34ee0d62743bf7ac1615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+288 verbose headers   'cf-ray': '63145fb6ec0e319a-BOM',
+288 verbose headers   age: '3499',
+288 verbose headers   'cache-control': 'public, max-age=300',
+288 verbose headers   etag: '"44005c8f9f9ef21709cdfcdb40e0b81c"',
+288 verbose headers   'last-modified': 'Mon, 01 Mar 2021 21:57:48 GMT',
+288 verbose headers   vary: 'Accept-Encoding',
+288 verbose headers   'cf-cache-status': 'HIT',
+288 verbose headers   'cf-request-id': '08e09a26530000319ad5a7f000000001',
+288 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+288 verbose headers   server: 'cloudflare' }
+289 silly get cb [ 304,
+289 silly get   { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+289 silly get     connection: 'keep-alive',
+289 silly get     'set-cookie':
+289 silly get      [ '__cfduid=dc6098c128b0b576a34ee0d62743bf7ac1615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+289 silly get     'cf-ray': '63145fb6ec0e319a-BOM',
+289 silly get     age: '3499',
+289 silly get     'cache-control': 'public, max-age=300',
+289 silly get     etag: '"44005c8f9f9ef21709cdfcdb40e0b81c"',
+289 silly get     'last-modified': 'Mon, 01 Mar 2021 21:57:48 GMT',
+289 silly get     vary: 'Accept-Encoding',
+289 silly get     'cf-cache-status': 'HIT',
+289 silly get     'cf-request-id': '08e09a26530000319ad5a7f000000001',
+289 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+289 silly get     server: 'cloudflare' } ]
+290 verbose etag https://registry.npmjs.org/axios from cache
+291 verbose get saving axios to /home/mukesh/.npm/registry.npmjs.org/axios/.cache.json
+292 http 304 https://registry.npmjs.org/cors
+293 verbose headers { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+293 verbose headers   connection: 'keep-alive',
+293 verbose headers   'set-cookie':
+293 verbose headers    [ '__cfduid=d23700bbfd941c8c5aadf49052ca20c761615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+293 verbose headers   'cf-ray': '63145fb6ec2d3224-BOM',
+293 verbose headers   age: '5370',
+293 verbose headers   'cache-control': 'public, max-age=300',
+293 verbose headers   etag: '"158c1c99bef274f24886ea063ec191c5"',
+293 verbose headers   'last-modified': 'Fri, 22 Jan 2021 21:18:44 GMT',
+293 verbose headers   vary: 'Accept-Encoding',
+293 verbose headers   'cf-cache-status': 'HIT',
+293 verbose headers   'cf-request-id': '08e09a265100003224e9bb7000000001',
+293 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+293 verbose headers   server: 'cloudflare' }
+294 silly get cb [ 304,
+294 silly get   { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+294 silly get     connection: 'keep-alive',
+294 silly get     'set-cookie':
+294 silly get      [ '__cfduid=d23700bbfd941c8c5aadf49052ca20c761615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+294 silly get     'cf-ray': '63145fb6ec2d3224-BOM',
+294 silly get     age: '5370',
+294 silly get     'cache-control': 'public, max-age=300',
+294 silly get     etag: '"158c1c99bef274f24886ea063ec191c5"',
+294 silly get     'last-modified': 'Fri, 22 Jan 2021 21:18:44 GMT',
+294 silly get     vary: 'Accept-Encoding',
+294 silly get     'cf-cache-status': 'HIT',
+294 silly get     'cf-request-id': '08e09a265100003224e9bb7000000001',
+294 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+294 silly get     server: 'cloudflare' } ]
+295 verbose etag https://registry.npmjs.org/cors from cache
+296 verbose get saving cors to /home/mukesh/.npm/registry.npmjs.org/cors/.cache.json
+297 http 304 https://registry.npmjs.org/express
+298 verbose headers { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+298 verbose headers   connection: 'keep-alive',
+298 verbose headers   'set-cookie':
+298 verbose headers    [ '__cfduid=d2a3a6cb34cfca9bded6faf60c5456e191615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+298 verbose headers   'cf-ray': '63145fb93efd2e2e-BOM',
+298 verbose headers   age: '3352',
+298 verbose headers   'cache-control': 'public, max-age=300',
+298 verbose headers   etag: '"f538acf6d267f4fe8e83d144e7eca01c"',
+298 verbose headers   'last-modified': 'Thu, 25 Feb 2021 23:21:20 GMT',
+298 verbose headers   vary: 'Accept-Encoding',
+298 verbose headers   'cf-cache-status': 'HIT',
+298 verbose headers   'cf-request-id': '08e09a27c100002e2eba213000000001',
+298 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+298 verbose headers   server: 'cloudflare' }
+299 silly get cb [ 304,
+299 silly get   { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+299 silly get     connection: 'keep-alive',
+299 silly get     'set-cookie':
+299 silly get      [ '__cfduid=d2a3a6cb34cfca9bded6faf60c5456e191615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+299 silly get     'cf-ray': '63145fb93efd2e2e-BOM',
+299 silly get     age: '3352',
+299 silly get     'cache-control': 'public, max-age=300',
+299 silly get     etag: '"f538acf6d267f4fe8e83d144e7eca01c"',
+299 silly get     'last-modified': 'Thu, 25 Feb 2021 23:21:20 GMT',
+299 silly get     vary: 'Accept-Encoding',
+299 silly get     'cf-cache-status': 'HIT',
+299 silly get     'cf-request-id': '08e09a27c100002e2eba213000000001',
+299 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+299 silly get     server: 'cloudflare' } ]
+300 verbose etag https://registry.npmjs.org/express from cache
+301 verbose get saving express to /home/mukesh/.npm/registry.npmjs.org/express/.cache.json
+302 http 304 https://registry.npmjs.org/pg
+303 verbose headers { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+303 verbose headers   connection: 'keep-alive',
+303 verbose headers   'set-cookie':
+303 verbose headers    [ '__cfduid=d5582f3cfab5120920dd2ef232de4a0471615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+303 verbose headers   'cf-ray': '63145fb939053217-BOM',
+303 verbose headers   age: '2178',
+303 verbose headers   'cache-control': 'public, max-age=300',
+303 verbose headers   etag: '"8bfaf29f6054a5f59776149499e0d969"',
+303 verbose headers   'last-modified': 'Fri, 13 Nov 2020 15:00:25 GMT',
+303 verbose headers   vary: 'Accept-Encoding',
+303 verbose headers   'cf-cache-status': 'HIT',
+303 verbose headers   'cf-request-id': '08e09a27c100003217f58ea000000001',
+303 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+303 verbose headers   server: 'cloudflare' }
+304 silly get cb [ 304,
+304 silly get   { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+304 silly get     connection: 'keep-alive',
+304 silly get     'set-cookie':
+304 silly get      [ '__cfduid=d5582f3cfab5120920dd2ef232de4a0471615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+304 silly get     'cf-ray': '63145fb939053217-BOM',
+304 silly get     age: '2178',
+304 silly get     'cache-control': 'public, max-age=300',
+304 silly get     etag: '"8bfaf29f6054a5f59776149499e0d969"',
+304 silly get     'last-modified': 'Fri, 13 Nov 2020 15:00:25 GMT',
+304 silly get     vary: 'Accept-Encoding',
+304 silly get     'cf-cache-status': 'HIT',
+304 silly get     'cf-request-id': '08e09a27c100003217f58ea000000001',
+304 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+304 silly get     server: 'cloudflare' } ]
+305 verbose etag https://registry.npmjs.org/pg from cache
+306 verbose get saving pg to /home/mukesh/.npm/registry.npmjs.org/pg/.cache.json
+307 http 304 https://registry.npmjs.org/socket.io
+308 verbose headers { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+308 verbose headers   connection: 'keep-alive',
+308 verbose headers   'set-cookie':
+308 verbose headers    [ '__cfduid=da2c180eaca77bfd6996cf559e2d11b101615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+308 verbose headers   'cf-ray': '63145fb93f8031fa-BOM',
+308 verbose headers   age: '2977',
+308 verbose headers   'cache-control': 'public, max-age=300',
+308 verbose headers   etag: '"a9e259de06c27cbb3ebc124f69569d02"',
+308 verbose headers   'last-modified': 'Wed, 10 Mar 2021 11:45:06 GMT',
+308 verbose headers   vary: 'Accept-Encoding',
+308 verbose headers   'cf-cache-status': 'HIT',
+308 verbose headers   'cf-request-id': '08e09a27c2000031fa912b3000000001',
+308 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+308 verbose headers   server: 'cloudflare' }
+309 silly get cb [ 304,
+309 silly get   { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+309 silly get     connection: 'keep-alive',
+309 silly get     'set-cookie':
+309 silly get      [ '__cfduid=da2c180eaca77bfd6996cf559e2d11b101615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+309 silly get     'cf-ray': '63145fb93f8031fa-BOM',
+309 silly get     age: '2977',
+309 silly get     'cache-control': 'public, max-age=300',
+309 silly get     etag: '"a9e259de06c27cbb3ebc124f69569d02"',
+309 silly get     'last-modified': 'Wed, 10 Mar 2021 11:45:06 GMT',
+309 silly get     vary: 'Accept-Encoding',
+309 silly get     'cf-cache-status': 'HIT',
+309 silly get     'cf-request-id': '08e09a27c2000031fa912b3000000001',
+309 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+309 silly get     server: 'cloudflare' } ]
+310 verbose etag https://registry.npmjs.org/socket.io from cache
+311 verbose get saving socket.io to /home/mukesh/.npm/registry.npmjs.org/socket.io/.cache.json
+312 http 304 https://registry.npmjs.org/ejs
+313 verbose headers { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+313 verbose headers   connection: 'keep-alive',
+313 verbose headers   'set-cookie':
+313 verbose headers    [ '__cfduid=d24d06fde672223facfd1a7eb3cd407971615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+313 verbose headers   'cf-ray': '63145fb93889d5bb-BOM',
+313 verbose headers   age: '3789',
+313 verbose headers   'cache-control': 'public, max-age=300',
+313 verbose headers   etag: '"fa0a9e30838de006b49335fa5ad18110"',
+313 verbose headers   'last-modified': 'Sat, 20 Feb 2021 21:22:31 GMT',
+313 verbose headers   vary: 'Accept-Encoding',
+313 verbose headers   'cf-cache-status': 'HIT',
+313 verbose headers   'cf-request-id': '08e09a27c10000d5bb612fc000000001',
+313 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+313 verbose headers   server: 'cloudflare' }
+314 silly get cb [ 304,
+314 silly get   { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+314 silly get     connection: 'keep-alive',
+314 silly get     'set-cookie':
+314 silly get      [ '__cfduid=d24d06fde672223facfd1a7eb3cd407971615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+314 silly get     'cf-ray': '63145fb93889d5bb-BOM',
+314 silly get     age: '3789',
+314 silly get     'cache-control': 'public, max-age=300',
+314 silly get     etag: '"fa0a9e30838de006b49335fa5ad18110"',
+314 silly get     'last-modified': 'Sat, 20 Feb 2021 21:22:31 GMT',
+314 silly get     vary: 'Accept-Encoding',
+314 silly get     'cf-cache-status': 'HIT',
+314 silly get     'cf-request-id': '08e09a27c10000d5bb612fc000000001',
+314 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+314 silly get     server: 'cloudflare' } ]
+315 verbose etag https://registry.npmjs.org/ejs from cache
+316 verbose get saving ejs to /home/mukesh/.npm/registry.npmjs.org/ejs/.cache.json
+317 http 304 https://registry.npmjs.org/sequelize-cli
+318 verbose headers { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+318 verbose headers   connection: 'keep-alive',
+318 verbose headers   'set-cookie':
+318 verbose headers    [ '__cfduid=dfce9fbd8adeb0f22743a5c67d39917591615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+318 verbose headers   'cf-ray': '63145fb939e72e11-BOM',
+318 verbose headers   age: '24',
+318 verbose headers   'cache-control': 'public, max-age=300',
+318 verbose headers   etag: '"3049191ff4817fc23a3ffbc7cc5a49e7"',
+318 verbose headers   'last-modified': 'Sun, 05 Jul 2020 05:57:51 GMT',
+318 verbose headers   vary: 'Accept-Encoding',
+318 verbose headers   'cf-cache-status': 'HIT',
+318 verbose headers   'cf-request-id': '08e09a27c700002e117e9b7000000001',
+318 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+318 verbose headers   server: 'cloudflare' }
+319 silly get cb [ 304,
+319 silly get   { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+319 silly get     connection: 'keep-alive',
+319 silly get     'set-cookie':
+319 silly get      [ '__cfduid=dfce9fbd8adeb0f22743a5c67d39917591615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+319 silly get     'cf-ray': '63145fb939e72e11-BOM',
+319 silly get     age: '24',
+319 silly get     'cache-control': 'public, max-age=300',
+319 silly get     etag: '"3049191ff4817fc23a3ffbc7cc5a49e7"',
+319 silly get     'last-modified': 'Sun, 05 Jul 2020 05:57:51 GMT',
+319 silly get     vary: 'Accept-Encoding',
+319 silly get     'cf-cache-status': 'HIT',
+319 silly get     'cf-request-id': '08e09a27c700002e117e9b7000000001',
+319 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+319 silly get     server: 'cloudflare' } ]
+320 verbose etag https://registry.npmjs.org/sequelize-cli from cache
+321 verbose get saving sequelize-cli to /home/mukesh/.npm/registry.npmjs.org/sequelize-cli/.cache.json
+322 http 304 https://registry.npmjs.org/redis
+323 verbose headers { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+323 verbose headers   connection: 'keep-alive',
+323 verbose headers   'set-cookie':
+323 verbose headers    [ '__cfduid=d838c8f6c9385650a733aec750b61a3ca1615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+323 verbose headers   'cf-ray': '63145fb9392c2e32-BOM',
+323 verbose headers   age: '218',
+323 verbose headers   'cache-control': 'public, max-age=300',
+323 verbose headers   etag: '"f06db0db4ba63e13652caa0b11eebb7f"',
+323 verbose headers   'last-modified': 'Fri, 26 Jun 2020 20:55:24 GMT',
+323 verbose headers   vary: 'Accept-Encoding',
+323 verbose headers   'cf-cache-status': 'HIT',
+323 verbose headers   'cf-request-id': '08e09a27c400002e323a953000000001',
+323 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+323 verbose headers   server: 'cloudflare' }
+324 silly get cb [ 304,
+324 silly get   { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+324 silly get     connection: 'keep-alive',
+324 silly get     'set-cookie':
+324 silly get      [ '__cfduid=d838c8f6c9385650a733aec750b61a3ca1615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+324 silly get     'cf-ray': '63145fb9392c2e32-BOM',
+324 silly get     age: '218',
+324 silly get     'cache-control': 'public, max-age=300',
+324 silly get     etag: '"f06db0db4ba63e13652caa0b11eebb7f"',
+324 silly get     'last-modified': 'Fri, 26 Jun 2020 20:55:24 GMT',
+324 silly get     vary: 'Accept-Encoding',
+324 silly get     'cf-cache-status': 'HIT',
+324 silly get     'cf-request-id': '08e09a27c400002e323a953000000001',
+324 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+324 silly get     server: 'cloudflare' } ]
+325 verbose etag https://registry.npmjs.org/redis from cache
+326 verbose get saving redis to /home/mukesh/.npm/registry.npmjs.org/redis/.cache.json
+327 http 304 https://registry.npmjs.org/body-parser
+328 verbose headers { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+328 verbose headers   connection: 'keep-alive',
+328 verbose headers   'set-cookie':
+328 verbose headers    [ '__cfduid=d4aa966c16628ee61898ed07003b70fbb1615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+328 verbose headers   'cf-ray': '63145fb94a1e2e52-BOM',
+328 verbose headers   age: '3897',
+328 verbose headers   'cache-control': 'public, max-age=300',
+328 verbose headers   etag: '"69165633b8917311c8a5b29b5aa3a438"',
+328 verbose headers   'last-modified': 'Fri, 29 Nov 2019 09:32:45 GMT',
+328 verbose headers   vary: 'Accept-Encoding',
+328 verbose headers   'cf-cache-status': 'HIT',
+328 verbose headers   'cf-request-id': '08e09a27ce00002e529cba8000000001',
+328 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+328 verbose headers   server: 'cloudflare' }
+329 silly get cb [ 304,
+329 silly get   { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+329 silly get     connection: 'keep-alive',
+329 silly get     'set-cookie':
+329 silly get      [ '__cfduid=d4aa966c16628ee61898ed07003b70fbb1615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+329 silly get     'cf-ray': '63145fb94a1e2e52-BOM',
+329 silly get     age: '3897',
+329 silly get     'cache-control': 'public, max-age=300',
+329 silly get     etag: '"69165633b8917311c8a5b29b5aa3a438"',
+329 silly get     'last-modified': 'Fri, 29 Nov 2019 09:32:45 GMT',
+329 silly get     vary: 'Accept-Encoding',
+329 silly get     'cf-cache-status': 'HIT',
+329 silly get     'cf-request-id': '08e09a27ce00002e529cba8000000001',
+329 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+329 silly get     server: 'cloudflare' } ]
+330 verbose etag https://registry.npmjs.org/body-parser from cache
+331 verbose get saving body-parser to /home/mukesh/.npm/registry.npmjs.org/body-parser/.cache.json
+332 http 304 https://registry.npmjs.org/mysql2
+333 verbose headers { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+333 verbose headers   connection: 'keep-alive',
+333 verbose headers   'set-cookie':
+333 verbose headers    [ '__cfduid=d838480c92e4fa18fe25db59caaf165dc1615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+333 verbose headers   'cf-ray': '63145fb95fa72dff-BOM',
+333 verbose headers   age: '1473',
+333 verbose headers   'cache-control': 'public, max-age=300',
+333 verbose headers   etag: '"c2c7024a6b38a98ec69d09f9ec0ab572"',
+333 verbose headers   'last-modified': 'Mon, 21 Sep 2020 12:28:16 GMT',
+333 verbose headers   vary: 'Accept-Encoding',
+333 verbose headers   'cf-cache-status': 'HIT',
+333 verbose headers   'cf-request-id': '08e09a27d400002dff712e9000000001',
+333 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+333 verbose headers   server: 'cloudflare' }
+334 silly get cb [ 304,
+334 silly get   { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+334 silly get     connection: 'keep-alive',
+334 silly get     'set-cookie':
+334 silly get      [ '__cfduid=d838480c92e4fa18fe25db59caaf165dc1615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+334 silly get     'cf-ray': '63145fb95fa72dff-BOM',
+334 silly get     age: '1473',
+334 silly get     'cache-control': 'public, max-age=300',
+334 silly get     etag: '"c2c7024a6b38a98ec69d09f9ec0ab572"',
+334 silly get     'last-modified': 'Mon, 21 Sep 2020 12:28:16 GMT',
+334 silly get     vary: 'Accept-Encoding',
+334 silly get     'cf-cache-status': 'HIT',
+334 silly get     'cf-request-id': '08e09a27d400002dff712e9000000001',
+334 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+334 silly get     server: 'cloudflare' } ]
+335 verbose etag https://registry.npmjs.org/mysql2 from cache
+336 verbose get saving mysql2 to /home/mukesh/.npm/registry.npmjs.org/mysql2/.cache.json
+337 http 304 https://registry.npmjs.org/bcrypt
+338 verbose headers { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+338 verbose headers   connection: 'keep-alive',
+338 verbose headers   'set-cookie':
+338 verbose headers    [ '__cfduid=db2ba3a4f20bedb390301a290ee5a16291615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+338 verbose headers   'cf-ray': '63145fb94c8731cf-BOM',
+338 verbose headers   age: '1929',
+338 verbose headers   'cache-control': 'public, max-age=300',
+338 verbose headers   etag: '"f17bbb5e1742f915082cc09fcfe14e44"',
+338 verbose headers   'last-modified': 'Sat, 13 Mar 2021 20:48:26 GMT',
+338 verbose headers   vary: 'Accept-Encoding',
+338 verbose headers   'cf-cache-status': 'HIT',
+338 verbose headers   'cf-request-id': '08e09a27d1000031cf580a3000000001',
+338 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+338 verbose headers   server: 'cloudflare' }
+339 silly get cb [ 304,
+339 silly get   { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+339 silly get     connection: 'keep-alive',
+339 silly get     'set-cookie':
+339 silly get      [ '__cfduid=db2ba3a4f20bedb390301a290ee5a16291615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+339 silly get     'cf-ray': '63145fb94c8731cf-BOM',
+339 silly get     age: '1929',
+339 silly get     'cache-control': 'public, max-age=300',
+339 silly get     etag: '"f17bbb5e1742f915082cc09fcfe14e44"',
+339 silly get     'last-modified': 'Sat, 13 Mar 2021 20:48:26 GMT',
+339 silly get     vary: 'Accept-Encoding',
+339 silly get     'cf-cache-status': 'HIT',
+339 silly get     'cf-request-id': '08e09a27d1000031cf580a3000000001',
+339 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+339 silly get     server: 'cloudflare' } ]
+340 verbose etag https://registry.npmjs.org/bcrypt from cache
+341 verbose get saving bcrypt to /home/mukesh/.npm/registry.npmjs.org/bcrypt/.cache.json
+342 http 304 https://registry.npmjs.org/multer
+343 verbose headers { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+343 verbose headers   connection: 'keep-alive',
+343 verbose headers   'set-cookie':
+343 verbose headers    [ '__cfduid=d70b7b1483ffcbfefa29d45a7ae7bd20c1615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+343 verbose headers   'cf-ray': '63145fb94e57699d-BOM',
+343 verbose headers   age: '5651',
+343 verbose headers   'cache-control': 'public, max-age=300',
+343 verbose headers   etag: '"851bfd416613de8d49e379afdc444aa2"',
+343 verbose headers   'last-modified': 'Sun, 15 Mar 2020 16:28:53 GMT',
+343 verbose headers   vary: 'Accept-Encoding',
+343 verbose headers   'cf-cache-status': 'HIT',
+343 verbose headers   'cf-request-id': '08e09a27cf0000699da6a49000000001',
+343 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+343 verbose headers   server: 'cloudflare' }
+344 silly get cb [ 304,
+344 silly get   { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+344 silly get     connection: 'keep-alive',
+344 silly get     'set-cookie':
+344 silly get      [ '__cfduid=d70b7b1483ffcbfefa29d45a7ae7bd20c1615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+344 silly get     'cf-ray': '63145fb94e57699d-BOM',
+344 silly get     age: '5651',
+344 silly get     'cache-control': 'public, max-age=300',
+344 silly get     etag: '"851bfd416613de8d49e379afdc444aa2"',
+344 silly get     'last-modified': 'Sun, 15 Mar 2020 16:28:53 GMT',
+344 silly get     vary: 'Accept-Encoding',
+344 silly get     'cf-cache-status': 'HIT',
+344 silly get     'cf-request-id': '08e09a27cf0000699da6a49000000001',
+344 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+344 silly get     server: 'cloudflare' } ]
+345 verbose etag https://registry.npmjs.org/multer from cache
+346 verbose get saving multer to /home/mukesh/.npm/registry.npmjs.org/multer/.cache.json
+347 http 304 https://registry.npmjs.org/express-kun
+348 verbose headers { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+348 verbose headers   connection: 'keep-alive',
+348 verbose headers   'set-cookie':
+348 verbose headers    [ '__cfduid=d3b7b83bd1c9eb1caa18fbcbe205d6fb21615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+348 verbose headers   'cf-ray': '63145fb9ad872e88-BOM',
+348 verbose headers   age: '24',
+348 verbose headers   'cache-control': 'public, max-age=300',
+348 verbose headers   etag: '"dcc0c64aaa5852da9b91387f0e411252"',
+348 verbose headers   'last-modified': 'Wed, 25 Mar 2020 12:03:11 GMT',
+348 verbose headers   vary: 'Accept-Encoding',
+348 verbose headers   'cf-cache-status': 'HIT',
+348 verbose headers   'cf-request-id': '08e09a280d00002e880913d000000001',
+348 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+348 verbose headers   server: 'cloudflare' }
+349 silly get cb [ 304,
+349 silly get   { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+349 silly get     connection: 'keep-alive',
+349 silly get     'set-cookie':
+349 silly get      [ '__cfduid=d3b7b83bd1c9eb1caa18fbcbe205d6fb21615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+349 silly get     'cf-ray': '63145fb9ad872e88-BOM',
+349 silly get     age: '24',
+349 silly get     'cache-control': 'public, max-age=300',
+349 silly get     etag: '"dcc0c64aaa5852da9b91387f0e411252"',
+349 silly get     'last-modified': 'Wed, 25 Mar 2020 12:03:11 GMT',
+349 silly get     vary: 'Accept-Encoding',
+349 silly get     'cf-cache-status': 'HIT',
+349 silly get     'cf-request-id': '08e09a280d00002e880913d000000001',
+349 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+349 silly get     server: 'cloudflare' } ]
+350 verbose etag https://registry.npmjs.org/express-kun from cache
+351 verbose get saving express-kun to /home/mukesh/.npm/registry.npmjs.org/express-kun/.cache.json
+352 http 304 https://registry.npmjs.org/node-localstorage
+353 verbose headers { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+353 verbose headers   connection: 'keep-alive',
+353 verbose headers   'set-cookie':
+353 verbose headers    [ '__cfduid=d402a6ed267203554de3cacb650c034831615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+353 verbose headers   'cf-ray': '63145fb9af5f3194-BOM',
+353 verbose headers   age: '6925',
+353 verbose headers   'cache-control': 'public, max-age=300',
+353 verbose headers   etag: '"8ed2f597a92f835f07a15d0faccef415"',
+353 verbose headers   'last-modified': 'Fri, 10 Apr 2020 22:54:25 GMT',
+353 verbose headers   vary: 'Accept-Encoding',
+353 verbose headers   'cf-cache-status': 'HIT',
+353 verbose headers   'cf-request-id': '08e09a280700003194cf898000000001',
+353 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+353 verbose headers   server: 'cloudflare' }
+354 silly get cb [ 304,
+354 silly get   { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+354 silly get     connection: 'keep-alive',
+354 silly get     'set-cookie':
+354 silly get      [ '__cfduid=d402a6ed267203554de3cacb650c034831615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+354 silly get     'cf-ray': '63145fb9af5f3194-BOM',
+354 silly get     age: '6925',
+354 silly get     'cache-control': 'public, max-age=300',
+354 silly get     etag: '"8ed2f597a92f835f07a15d0faccef415"',
+354 silly get     'last-modified': 'Fri, 10 Apr 2020 22:54:25 GMT',
+354 silly get     vary: 'Accept-Encoding',
+354 silly get     'cf-cache-status': 'HIT',
+354 silly get     'cf-request-id': '08e09a280700003194cf898000000001',
+354 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+354 silly get     server: 'cloudflare' } ]
+355 verbose etag https://registry.npmjs.org/node-localstorage from cache
+356 verbose get saving node-localstorage to /home/mukesh/.npm/registry.npmjs.org/node-localstorage/.cache.json
+357 http 304 https://registry.npmjs.org/qs
+358 verbose headers { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+358 verbose headers   connection: 'keep-alive',
+358 verbose headers   'set-cookie':
+358 verbose headers    [ '__cfduid=d54ee063bc905f0e1c4c88938d2f442a81615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+358 verbose headers   'cf-ray': '63145fb9bae631d6-BOM',
+358 verbose headers   age: '3970',
+358 verbose headers   'cache-control': 'public, max-age=300',
+358 verbose headers   etag: '"c6ae2ae2c9e9df9fc738a0a5fab39a87"',
+358 verbose headers   'last-modified': 'Thu, 14 Jan 2021 04:53:52 GMT',
+358 verbose headers   vary: 'Accept-Encoding',
+358 verbose headers   'cf-cache-status': 'HIT',
+358 verbose headers   'cf-request-id': '08e09a2810000031d6a92b7000000001',
+358 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+358 verbose headers   server: 'cloudflare' }
+359 silly get cb [ 304,
+359 silly get   { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+359 silly get     connection: 'keep-alive',
+359 silly get     'set-cookie':
+359 silly get      [ '__cfduid=d54ee063bc905f0e1c4c88938d2f442a81615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+359 silly get     'cf-ray': '63145fb9bae631d6-BOM',
+359 silly get     age: '3970',
+359 silly get     'cache-control': 'public, max-age=300',
+359 silly get     etag: '"c6ae2ae2c9e9df9fc738a0a5fab39a87"',
+359 silly get     'last-modified': 'Thu, 14 Jan 2021 04:53:52 GMT',
+359 silly get     vary: 'Accept-Encoding',
+359 silly get     'cf-cache-status': 'HIT',
+359 silly get     'cf-request-id': '08e09a2810000031d6a92b7000000001',
+359 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+359 silly get     server: 'cloudflare' } ]
+360 verbose etag https://registry.npmjs.org/qs from cache
+361 verbose get saving qs to /home/mukesh/.npm/registry.npmjs.org/qs/.cache.json
+362 http 304 https://registry.npmjs.org/pg-hstore
+363 verbose headers { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+363 verbose headers   connection: 'keep-alive',
+363 verbose headers   'set-cookie':
+363 verbose headers    [ '__cfduid=d162e186ab487b8744ea1a666bae55d4c1615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+363 verbose headers   'cf-ray': '63145fbb0f6a69a1-BOM',
+363 verbose headers   age: '4692',
+363 verbose headers   'cache-control': 'public, max-age=300',
+363 verbose headers   etag: '"83cabd8a2340481d89eb42da6db01a9d"',
+363 verbose headers   'last-modified': 'Mon, 03 Jun 2019 20:41:34 GMT',
+363 verbose headers   vary: 'Accept-Encoding',
+363 verbose headers   'cf-cache-status': 'HIT',
+363 verbose headers   'cf-request-id': '08e09a28e1000069a16d9a2000000001',
+363 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+363 verbose headers   server: 'cloudflare' }
+364 silly get cb [ 304,
+364 silly get   { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+364 silly get     connection: 'keep-alive',
+364 silly get     'set-cookie':
+364 silly get      [ '__cfduid=d162e186ab487b8744ea1a666bae55d4c1615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+364 silly get     'cf-ray': '63145fbb0f6a69a1-BOM',
+364 silly get     age: '4692',
+364 silly get     'cache-control': 'public, max-age=300',
+364 silly get     etag: '"83cabd8a2340481d89eb42da6db01a9d"',
+364 silly get     'last-modified': 'Mon, 03 Jun 2019 20:41:34 GMT',
+364 silly get     vary: 'Accept-Encoding',
+364 silly get     'cf-cache-status': 'HIT',
+364 silly get     'cf-request-id': '08e09a28e1000069a16d9a2000000001',
+364 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+364 silly get     server: 'cloudflare' } ]
+365 verbose etag https://registry.npmjs.org/pg-hstore from cache
+366 verbose get saving pg-hstore to /home/mukesh/.npm/registry.npmjs.org/pg-hstore/.cache.json
+367 http 304 https://registry.npmjs.org/sequelize
+368 verbose headers { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+368 verbose headers   connection: 'keep-alive',
+368 verbose headers   'set-cookie':
+368 verbose headers    [ '__cfduid=d654b6003be8c22657ad8c18076684a481615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+368 verbose headers   'cf-ray': '63145fbb3c886995-BOM',
+368 verbose headers   age: '3991',
+368 verbose headers   'cache-control': 'public, max-age=300',
+368 verbose headers   etag: '"0dd8d1984c44202f9082546256da0962"',
+368 verbose headers   'last-modified': 'Sun, 14 Mar 2021 18:39:19 GMT',
+368 verbose headers   vary: 'Accept-Encoding',
+368 verbose headers   'cf-cache-status': 'HIT',
+368 verbose headers   'cf-request-id': '08e09a29020000699561a4e000000001',
+368 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+368 verbose headers   server: 'cloudflare' }
+369 silly get cb [ 304,
+369 silly get   { date: 'Wed, 17 Mar 2021 07:05:37 GMT',
+369 silly get     connection: 'keep-alive',
+369 silly get     'set-cookie':
+369 silly get      [ '__cfduid=d654b6003be8c22657ad8c18076684a481615964737; expires=Fri, 16-Apr-21 07:05:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+369 silly get     'cf-ray': '63145fbb3c886995-BOM',
+369 silly get     age: '3991',
+369 silly get     'cache-control': 'public, max-age=300',
+369 silly get     etag: '"0dd8d1984c44202f9082546256da0962"',
+369 silly get     'last-modified': 'Sun, 14 Mar 2021 18:39:19 GMT',
+369 silly get     vary: 'Accept-Encoding',
+369 silly get     'cf-cache-status': 'HIT',
+369 silly get     'cf-request-id': '08e09a29020000699561a4e000000001',
+369 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+369 silly get     server: 'cloudflare' } ]
+370 verbose etag https://registry.npmjs.org/sequelize from cache
+371 verbose get saving sequelize to /home/mukesh/.npm/registry.npmjs.org/sequelize/.cache.json
+372 silly resolveWithNewModule express-session@1.17.1 checking installable status
+373 silly cache add args [ 'express-session@^1.17.1', null ]
+374 verbose cache add spec express-session@^1.17.1
+375 silly cache add parsed spec Result {
+375 silly cache add   raw: 'express-session@^1.17.1',
+375 silly cache add   scope: null,
+375 silly cache add   name: 'express-session',
+375 silly cache add   rawSpec: '^1.17.1',
+375 silly cache add   spec: '>=1.17.1 <2.0.0',
+375 silly cache add   type: 'range' }
+376 silly addNamed express-session@>=1.17.1 <2.0.0
+377 verbose addNamed ">=1.17.1 <2.0.0" is a valid semver range for express-session
+378 silly addNameRange { name: 'express-session',
+378 silly addNameRange   range: '>=1.17.1 <2.0.0',
+378 silly addNameRange   hasData: false }
+379 silly mapToRegistry name express-session
+380 silly mapToRegistry using default registry
+381 silly mapToRegistry registry https://registry.npmjs.org/
+382 silly mapToRegistry uri https://registry.npmjs.org/express-session
+383 verbose addNameRange registry:https://registry.npmjs.org/express-session not in flight; fetching
+384 silly resolveWithNewModule connect-redis@5.1.0 checking installable status
+385 silly cache add args [ 'connect-redis@^5.0.0', null ]
+386 verbose cache add spec connect-redis@^5.0.0
+387 silly cache add parsed spec Result {
+387 silly cache add   raw: 'connect-redis@^5.0.0',
+387 silly cache add   scope: null,
+387 silly cache add   name: 'connect-redis',
+387 silly cache add   rawSpec: '^5.0.0',
+387 silly cache add   spec: '>=5.0.0 <6.0.0',
+387 silly cache add   type: 'range' }
+388 silly addNamed connect-redis@>=5.0.0 <6.0.0
+389 verbose addNamed ">=5.0.0 <6.0.0" is a valid semver range for connect-redis
+390 silly addNameRange { name: 'connect-redis',
+390 silly addNameRange   range: '>=5.0.0 <6.0.0',
+390 silly addNameRange   hasData: false }
+391 silly mapToRegistry name connect-redis
+392 silly mapToRegistry using default registry
+393 silly mapToRegistry registry https://registry.npmjs.org/
+394 silly mapToRegistry uri https://registry.npmjs.org/connect-redis
+395 verbose addNameRange registry:https://registry.npmjs.org/connect-redis not in flight; fetching
+396 silly resolveWithNewModule moment@2.29.1 checking installable status
+397 silly cache add args [ 'moment@^2.29.1', null ]
+398 verbose cache add spec moment@^2.29.1
+399 silly cache add parsed spec Result {
+399 silly cache add   raw: 'moment@^2.29.1',
+399 silly cache add   scope: null,
+399 silly cache add   name: 'moment',
+399 silly cache add   rawSpec: '^2.29.1',
+399 silly cache add   spec: '>=2.29.1 <3.0.0',
+399 silly cache add   type: 'range' }
+400 silly addNamed moment@>=2.29.1 <3.0.0
+401 verbose addNamed ">=2.29.1 <3.0.0" is a valid semver range for moment
+402 silly addNameRange { name: 'moment', range: '>=2.29.1 <3.0.0', hasData: false }
+403 silly mapToRegistry name moment
+404 silly mapToRegistry using default registry
+405 silly mapToRegistry registry https://registry.npmjs.org/
+406 silly mapToRegistry uri https://registry.npmjs.org/moment
+407 verbose addNameRange registry:https://registry.npmjs.org/moment not in flight; fetching
+408 silly resolveWithNewModule cookie-parser@1.4.5 checking installable status
+409 silly cache add args [ 'cookie-parser@^1.4.5', null ]
+410 verbose cache add spec cookie-parser@^1.4.5
+411 silly cache add parsed spec Result {
+411 silly cache add   raw: 'cookie-parser@^1.4.5',
+411 silly cache add   scope: null,
+411 silly cache add   name: 'cookie-parser',
+411 silly cache add   rawSpec: '^1.4.5',
+411 silly cache add   spec: '>=1.4.5 <2.0.0',
+411 silly cache add   type: 'range' }
+412 silly addNamed cookie-parser@>=1.4.5 <2.0.0
+413 verbose addNamed ">=1.4.5 <2.0.0" is a valid semver range for cookie-parser
+414 silly addNameRange { name: 'cookie-parser',
+414 silly addNameRange   range: '>=1.4.5 <2.0.0',
+414 silly addNameRange   hasData: false }
+415 silly mapToRegistry name cookie-parser
+416 silly mapToRegistry using default registry
+417 silly mapToRegistry registry https://registry.npmjs.org/
+418 silly mapToRegistry uri https://registry.npmjs.org/cookie-parser
+419 verbose addNameRange registry:https://registry.npmjs.org/cookie-parser not in flight; fetching
+420 silly resolveWithNewModule cors@2.8.5 checking installable status
+421 silly cache add args [ 'cors@^2.8.5', null ]
+422 verbose cache add spec cors@^2.8.5
+423 silly cache add parsed spec Result {
+423 silly cache add   raw: 'cors@^2.8.5',
+423 silly cache add   scope: null,
+423 silly cache add   name: 'cors',
+423 silly cache add   rawSpec: '^2.8.5',
+423 silly cache add   spec: '>=2.8.5 <3.0.0',
+423 silly cache add   type: 'range' }
+424 silly addNamed cors@>=2.8.5 <3.0.0
+425 verbose addNamed ">=2.8.5 <3.0.0" is a valid semver range for cors
+426 silly addNameRange { name: 'cors', range: '>=2.8.5 <3.0.0', hasData: false }
+427 silly mapToRegistry name cors
+428 silly mapToRegistry using default registry
+429 silly mapToRegistry registry https://registry.npmjs.org/
+430 silly mapToRegistry uri https://registry.npmjs.org/cors
+431 verbose addNameRange registry:https://registry.npmjs.org/cors not in flight; fetching
+432 silly resolveWithNewModule jsonwebtoken@8.5.1 checking installable status
+433 silly cache add args [ 'jsonwebtoken@^8.5.1', null ]
+434 verbose cache add spec jsonwebtoken@^8.5.1
+435 silly cache add parsed spec Result {
+435 silly cache add   raw: 'jsonwebtoken@^8.5.1',
+435 silly cache add   scope: null,
+435 silly cache add   name: 'jsonwebtoken',
+435 silly cache add   rawSpec: '^8.5.1',
+435 silly cache add   spec: '>=8.5.1 <9.0.0',
+435 silly cache add   type: 'range' }
+436 silly addNamed jsonwebtoken@>=8.5.1 <9.0.0
+437 verbose addNamed ">=8.5.1 <9.0.0" is a valid semver range for jsonwebtoken
+438 silly addNameRange { name: 'jsonwebtoken', range: '>=8.5.1 <9.0.0', hasData: false }
+439 silly mapToRegistry name jsonwebtoken
+440 silly mapToRegistry using default registry
+441 silly mapToRegistry registry https://registry.npmjs.org/
+442 silly mapToRegistry uri https://registry.npmjs.org/jsonwebtoken
+443 verbose addNameRange registry:https://registry.npmjs.org/jsonwebtoken not in flight; fetching
+444 silly resolveWithNewModule axios@0.21.1 checking installable status
+445 silly cache add args [ 'axios@^0.21.1', null ]
+446 verbose cache add spec axios@^0.21.1
+447 silly cache add parsed spec Result {
+447 silly cache add   raw: 'axios@^0.21.1',
+447 silly cache add   scope: null,
+447 silly cache add   name: 'axios',
+447 silly cache add   rawSpec: '^0.21.1',
+447 silly cache add   spec: '>=0.21.1 <0.22.0',
+447 silly cache add   type: 'range' }
+448 silly addNamed axios@>=0.21.1 <0.22.0
+449 verbose addNamed ">=0.21.1 <0.22.0" is a valid semver range for axios
+450 silly addNameRange { name: 'axios', range: '>=0.21.1 <0.22.0', hasData: false }
+451 silly mapToRegistry name axios
+452 silly mapToRegistry using default registry
+453 silly mapToRegistry registry https://registry.npmjs.org/
+454 silly mapToRegistry uri https://registry.npmjs.org/axios
+455 verbose addNameRange registry:https://registry.npmjs.org/axios not in flight; fetching
+456 silly resolveWithNewModule express@4.17.1 checking installable status
+457 silly cache add args [ 'express@^4.17.1', null ]
+458 verbose cache add spec express@^4.17.1
+459 silly cache add parsed spec Result {
+459 silly cache add   raw: 'express@^4.17.1',
+459 silly cache add   scope: null,
+459 silly cache add   name: 'express',
+459 silly cache add   rawSpec: '^4.17.1',
+459 silly cache add   spec: '>=4.17.1 <5.0.0',
+459 silly cache add   type: 'range' }
+460 silly addNamed express@>=4.17.1 <5.0.0
+461 verbose addNamed ">=4.17.1 <5.0.0" is a valid semver range for express
+462 silly addNameRange { name: 'express', range: '>=4.17.1 <5.0.0', hasData: false }
+463 silly mapToRegistry name express
+464 silly mapToRegistry using default registry
+465 silly mapToRegistry registry https://registry.npmjs.org/
+466 silly mapToRegistry uri https://registry.npmjs.org/express
+467 verbose addNameRange registry:https://registry.npmjs.org/express not in flight; fetching
+468 silly resolveWithNewModule pg@8.5.1 checking installable status
+469 silly cache add args [ 'pg@^8.5.1', null ]
+470 verbose cache add spec pg@^8.5.1
+471 silly cache add parsed spec Result {
+471 silly cache add   raw: 'pg@^8.5.1',
+471 silly cache add   scope: null,
+471 silly cache add   name: 'pg',
+471 silly cache add   rawSpec: '^8.5.1',
+471 silly cache add   spec: '>=8.5.1 <9.0.0',
+471 silly cache add   type: 'range' }
+472 silly addNamed pg@>=8.5.1 <9.0.0
+473 verbose addNamed ">=8.5.1 <9.0.0" is a valid semver range for pg
+474 silly addNameRange { name: 'pg', range: '>=8.5.1 <9.0.0', hasData: false }
+475 silly mapToRegistry name pg
+476 silly mapToRegistry using default registry
+477 silly mapToRegistry registry https://registry.npmjs.org/
+478 silly mapToRegistry uri https://registry.npmjs.org/pg
+479 verbose addNameRange registry:https://registry.npmjs.org/pg not in flight; fetching
+480 verbose stack Error: Missing required argument #1
+480 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+480 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+480 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+480 verbose stack     at /usr/share/npm/lib/install/deps.js:457:7
+480 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+480 verbose stack     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+480 verbose stack     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+480 verbose stack     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+480 verbose stack     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+480 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+481 verbose cwd /home/mukesh/Desktop/node-chat
+482 error Linux 5.4.0-42-generic
+483 error argv "/usr/bin/node" "/usr/bin/npm" "install"
+484 error node v8.10.0
+485 error npm  v3.5.2
+486 error code EMISSINGARG
+487 error typeerror Error: Missing required argument #1
+487 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+487 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+487 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+487 error typeerror     at /usr/share/npm/lib/install/deps.js:457:7
+487 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+487 error typeerror     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+487 error typeerror     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+487 error typeerror     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+487 error typeerror     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+487 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+488 error typeerror This is an error with npm itself. Please report this error at:
+488 error typeerror     <http://github.com/npm/npm/issues>
+489 verbose exit [ 1, true ]
